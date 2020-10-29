@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.pepe {
+    height: 400px;
+    width: 400px;
+    vertical-align:bottom;
+    border:0;
+}
