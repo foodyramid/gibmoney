@@ -8,11 +8,12 @@ html, body, .container {
 
 h1, h2, h3, h4, h5, h6 {
     color: #000;
+    margin-bottom: 20px;
 }
 
 .pepe {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 80%;
     vertical-align:bottom;
     border:0;
 }
