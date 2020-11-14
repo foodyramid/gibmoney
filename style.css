@@ -1,9 +1,20 @@
-html, body, .container {
+html, body {
     height: 100%;
     width: 100%;
     overflow: hidden;
     overflow-wrap: break-word;
     background: #fff;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,6 +49,6 @@ h1, h2, h3, h4, h5, h6 {
     animation-fill-mode: forwards;
 }
 
-@keyframes SnowExampleSlide {from {position: absolute; top: -450px;} to {position: absolute; top: 633px;}}
-@-webkit-keyframes SnowExampleSlide {from {position: absolute; top: -450px;} to {position: absolute; top: 633px;}}
-@-moz-keyframes SnowExampleSlide {from {position: absolute; top: -450px;} to {position: absolute; top: 633px;}}
+@keyframes SnowExampleSlide {from {position: absolute; top: -150px;} to {position: absolute; top: 700px;}}
+@-webkit-keyframes SnowExampleSlide {from {position: absolute; top: -150px;} to {position: absolute; top: 700px;}}
+@-moz-keyframes SnowExampleSlide {from {position: absolute; top: -150px;} to {position: absolute; top: 700px;}}
