@@ -17,3 +17,27 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align:bottom;
     border:0;
 }
+
+.snowContainer{
+    width: 100%; 
+    overflow: visible; 
+    position: relative;
+}
+
+.snowExample{
+    position: absolute; 
+    top: -850px; 
+    opacity: .5; 
+    text-align: center; 
+    width: 40px;
+    animation: SnowExampleSlide ease-in infinite;
+        -webkit-animation: SnowExampleSlide ease-in infinite; 
+        -moz-animation: SnowExampleSlide ease-in infinite;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes SnowExampleSlide {from {position: absolute; top: -450px;} to {position: absolute; top: 633px;}}
+@-webkit-keyframes SnowExampleSlide {from {position: absolute; top: -450px;} to {position: absolute; top: 633px;}}
+@-moz-keyframes SnowExampleSlide {from {position: absolute; top: -450px;} to {position: absolute; top: 633px;}}
